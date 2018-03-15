@@ -28,7 +28,7 @@ and to some extent, means a worse generalization.
 > While distributed synchronous SGD is now commonplace, no existing results show that validation accuracy can be 
 maintained with minibatches as large as 8192 or that such high-accuracy models can be trained in such short time.  
 
-Nonetheless, limitting the batch size is really a waste since the hardware is more and more powerful and distributed 
+Nonetheless, limitting the batch size is really a waste since the hardwares are more and more powerful and distributed 
 computing is available. In this circumstance, Facebook tries to *demonstrate the feasibility of and to communicate 
 a practical guide to large-scale training with distributed synchronous stochastic gradient descent*. In short, they aim 
 to keep the validation error low in the shortest time while using a large batch-size to utilize Distributed Computing. 
@@ -71,7 +71,7 @@ warmup phase, we could go back to the original learning rate schedule.
 
 
 # II) Uber's framework for Distributed Training
-To begin with, Uber is one of the most active company in the field of Deep Learning. They apply Deep Learning in 
+To begin with, Uber is one of the most active companies in the field of Deep Learning. They apply Deep Learning  
 to pair the drivers and the customers. With the augmentation of the dataset, they invest strongly to increase the 
 computational power of their Deep Learning engine. And [Horovod](https://github.com/uber/horovod) is one of the most 
 remarkable solutions of theirs. Horovod, in short, is a framework which helps to exploit the computational power of 
