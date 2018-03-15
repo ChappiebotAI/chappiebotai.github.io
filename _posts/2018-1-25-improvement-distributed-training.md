@@ -28,7 +28,7 @@ and to some extent, means a worse generalization.
 > While distributed synchronous SGD is now commonplace, no existing results show that validation accuracy can be 
 maintained with minibatches as large as 8192 or that such high-accuracy models can be trained in such short time.  
 
-Nonetheless, limitting the batch size is really a waste since the hardwares are more and more powerful and distributed 
+Nonetheless, limiting the batch size is really a waste since the hardwares are more and more powerful and distributed 
 computing is available. In this circumstance, Facebook tries to *demonstrate the feasibility of and to communicate 
 a practical guide to large-scale training with distributed synchronous stochastic gradient descent*. In short, they aim 
 to keep the validation error low in the shortest time while using a large batch-size to utilize Distributed Computing. 
@@ -149,7 +149,7 @@ package named Horovod. In Horovod, Baidu ring-allreduce implementation is replac
 highly optimized ring-allreduce. In addition, NCCL 2 introduced the ability to run this operation across multiple machines 
 in the network, which enables us to leverage the computation capacity of the distributed network. 
 Not only that, Horovod could work with enormous models which resides on multiple GPUs while the original version can 
-only supported models fitting on a single GPU. Last but not least, the new API allows us to simplify our program much, 
+only support models fitting on a single GPU. Last but not least, the new API allows us to simplify our program much, 
 as illustrated followingly. 
 
 <div style="font-size: 75%;">
