@@ -42,7 +42,12 @@ Suppose we work with a data set $$ \{x_1, x_2, ..., x_N\} $$ in a $$ R_d$$ space
 K of clusters. In more detailed, each point in the data set will be partioned based on its Euclidean distance with others. 
 Each cluster will be represented by its centroid $$\mu_k$$,  $$k \in \{1,.., K\}, \mu_k \in R_d$$. After the training, if we want to classify the new sample, we just need 
 to assign it to the group with the nearest cluster to the sample. Pretty intuitive, yeah? Suppose hyperparameter K is 
-known, the goal of the learning phase is to find the coordinate of the centroids. 
+known, the goal of the learning phase is to find the coordinates of the centroids.  
+To do this, we might want to add a variable to describe the assignment of data points to clusters. For each point $$x_n$$, 
+we introduce a corresponding variable $$r_{nk} \in \{0, 1\}$$, where $$k = 1, ..., K$$ describing which of K clusters the 
+data point is assigned to. $$r_{nk} = 1$$ means $$x_n$$ belongs to cluster $$k$$ and vice-versa. With this variable, 
+we can define a loss function:  
+<p align='center'> $$ J = \sum_{n=1}^{N} \sum_{k=1}^{K} r_{nk} \|x_n - \mu_j\|^2$$
  
  
 
