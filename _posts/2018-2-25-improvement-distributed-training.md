@@ -77,7 +77,7 @@ computational power of their Deep Learning engine. And [Horovod](https://github.
 remarkable solutions of theirs. Horovod, in short, is a framework which helps to exploit the computational power of 
 distributing system much more effeciently than standard [Distributed Tensorflow](/distributed-tensorflow).  
 Back to *Distributed Tensorflow*, we have to admit that there are many new concepts like: **worker, parameter server, 
-tf.ClusterSpec(), etc.**: it is hard for a newbie to understand fully and also hard for an expert to debug his program. 
+tf.ClusterSpec()** etc.: it is hard for a newbie to understand fully and also hard for an expert to debug his program. 
 So we are in need of a simpler wrapper.  
 Another issue is, the standard *Distributed Tensorflow* cannot exploit fully the hardware power.  
 <p align="center">
