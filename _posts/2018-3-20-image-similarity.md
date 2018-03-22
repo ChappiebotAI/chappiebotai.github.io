@@ -195,6 +195,9 @@ In our implementation, we've done some modification:
 - We pass the anchor image, positive image and negative image successively to a single pipeline to construct their 
 embedding representations instead of three identical networks to save memory while training on GPUs.  
 - We will define the triplets manually or by bootstraping before training and write the triplet path to a text file.  
+- In the original paper, they employed 4000-dims embedding vector. However, we observe that during our training 128-dims 
+vector outperforms 4000-dims one. This is super queer to us as it seems intuitive that vector with bigger dimension must 
+capture more features. This issue will be investigated carefully during our deployment.  
 
 Source code for model network:  
 <div style="font-size: 75%;">
