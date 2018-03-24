@@ -11,7 +11,9 @@ of belonging to the same category, cannot be compared to each other since the vi
 car in the images, etc. are not matching. The origin of this disagreement is about [the difference between semantic 
 representation and visual representation](http://www.thomas.deselaers.de/publications/papers/deselaers_cvpr11.pdf). 
 Therefore, we come up with the idea of establishing an indicator to compare the visual similarity between two images. 
-In this blog, we will present our work towards that target. 
+In this blog, we will present our work towards that target.  
+
+
 <p align="center">
  <img src="/images/similarity/1f76062dc6c3fd07043aaa2fe6bdf22a.jpg" alt="" align="middle">
 </p>  
