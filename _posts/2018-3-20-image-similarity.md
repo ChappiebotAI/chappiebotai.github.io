@@ -15,13 +15,13 @@ In this blog, we will present our work towards that target.
 
 
 <p align="center">
- <img src="/images/similarity/1f76062dc6c3fd07043aaa2fe6bdf22a.jpg" alt="" align="middle">
+ <img src="/images/similarity/1f76062dc6c3fd07043aaa2fe6bdf22a.jpg" alt="" width="600" height="400" align="middle">
 </p>  
 <p align="center">
- <img src="/images/similarity/1fcf5b7e69e8c2738e1572efee251018.jpg" alt="" align="middle">
+ <img src="/images/similarity/1fcf5b7e69e8c2738e1572efee251018.jpg" alt="" width="600" height="400" align="middle">
 </p>  
 <p align="center">
- <img src="/images/similarity/2afa9cbd65bcf84661b20baec5754feb.jpg" alt="" align="middle">
+ <img src="/images/similarity/2afa9cbd65bcf84661b20baec5754feb.jpg" alt="" width="600" height="400" align="middle">
  <div align="center"> Some examples about the dissimilarity between the images from the same category </div>
 </p>  
 
@@ -110,7 +110,7 @@ images in the form of vector. With the vectorized representation, we can use L2-
 to compute the similarity score between images.  
 
 <p align="center">
- <img src="/images/similarity/1_XzVUiq-3lYFtZEW3XfmKqg.jpeg" alt="" align="middle">
+ <img src="/images/similarity/1_XzVUiq-3lYFtZEW3XfmKqg.jpeg" alt="" width="500" height="700" align="middle">
  <div align="center"> Siamese Network Architecture
  <a href="https://cdn-images-1.medium.com/max/1200/1*XzVUiq-3lYFtZEW3XfmKqg.jpeg">Source</a> </div>
 </p>
@@ -154,7 +154,7 @@ capturing the image semantics*. The other two shallower networks rather capture 
 
 ### Triplet Loss Function  
 <p align="center">
- <img src="/images/similarity/download.png" alt="" align="middle">
+ <img src="/images/similarity/download.png" alt="" width="300" height="200" align="middle">
  <div align="center"> Effect of minimizing triplet loss
  <a href="http://www.paperweekly.site/papers/notes/125">Source</a> </div>
 </p>  
