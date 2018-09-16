@@ -124,5 +124,15 @@ There are three components to prepare:
     * serve: it is similar to *train*, but during the intefere process.
 
 
+# IV. References
+* [Building your own TensorFlow container](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/advanced_functionality/tensorflow_bring_your_own/tensorflow_bring_your_own.ipynb)
+
+* [AWS SageMaker Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
+
+* [SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk)
+
+* [TensorFlow SageMaker Estimators and Models](https://github.com/aws/sagemaker-python-sdk/blob/master/src/sagemaker/tensorflow/README.rst#sagemaker-tensorflow-docker-containers)
+
+* [SageMaker : Bring your own Algorithms](https://medium.com/smileinnovation/sagemaker-bring-your-own-algorithms-719dd539607d)
 
 
